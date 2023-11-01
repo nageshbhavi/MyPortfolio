@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nagesh's Portfolio</title>
+
+    <link rel="icon" href="letter-n.png" />
+
+    <!-- font-awsome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Poppins:wght@400;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="port.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="left">
+          <a><img src="header-img1.jpg" alt="header-img" /> Nagesh Bhavi</a>
+        </div>
+        <div class="right">
+          <button
+            class="navbar-toggler navbar-dark"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation "
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="Home" class="firstsection hidden">
+        <div class="leftsection">
+          <div class="firstline">
+            Hi, I'm <span class="purple">Nagesh</span>
+          </div>
+          <div>
+            a passionate Engineering Student and
+            <span id="element"></span>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="pf_image.png" alt="png_image" />
+        </div>
+      </section>
+
+      <hr class="hidden" />
+      <section id="about" class="about-sec hidden">
+        <img src="header-img1.jpg" alt="png_image" />
+        <h1>About</h1>
+        <p>
+          Hello and Welcome! <br />This is Nagesh Bhavi, a rising senior at JSS
+          Science and Technology University Mysore studying Information Science
+          and Technology with career interests in Web Development and Cloud
+          Computing.
+        </p>
+        <h5>Education</h5>
+        <p>
+          B.E | JSS Science and Technology University, Mysuru <br /><span
+            class="edu"
+            >CGPA: 9.03 | (Dec 2021 - Present)</span
+          >
+          <br />
+          XII (CBSE) | Jawahar Navodaya Vidyalaya, Korwar <br />
+          <span class="edu">93.6% | 2021</span>
+        </p>
+
+        <div class="buttons">
+          <button onclick="window.open('resume-main.pdf','_blank')" class="btn">
+            <i class="fa-solid fa-file btn-icon" style="color: #3c125e"></i>View
+            Resume
+          </button>
+          <button
+            onclick="window.open('https://www.linkedin.com/in/nageshbhavi','_blank')"
+            class="btn"
+          >
+            <i
+              class="fa-brands fa-linkedin-in btn-icon"
+              style="color: #3c125e"
+            ></i
+            >Visit LinkedIn
+          </button>
+        </div>
+      </section>
+
+      <hr class="hidden" />
+      <section id="projects" class="secondsection">
+        <span class="text-grey hidden">What I have done so far</span>
+        <h1 class="hidden show">My Projects</h1>
+
+        <div class="skills">
+          <div class="skill-row hidden">
+            <img class="http-png" src="portfolio-png.png" alt="chilli" />
+            <a>
+              <h3>My Portfolio</h3>
+            </a>
+
+            <p>
+              HTML, CSS, BOOTSTRAP, JAVASCRIPT <br />
+              A personal website to showcase my skills and projects using HTML,
+              CSS, Bootstrap, and JavaScript. The website is modern,
+              interactive, and responsive.
+            </p>
+          </div>
+
+          <div class="skill-row hidden">
+            <img class="http-png" src="dog-png.png" alt="chilli" />
+            <a>
+              <h3>Tindog</h3>
+            </a>
+
+            <p>
+              HTML, CSS, BOOTSTRAP <br />
+              Developed Tindog, a responsive website using HTML, CSS, and
+              Bootstrap, facilitating the purchase and matching of pet dogs.
+            </p>
+          </div>
+
+          <div class="skill-row hidden">
+            <img class="http-png" src="amzn-png.png" alt="computer" />
+            <a
+              target="_blank"
+              href="https://nageshbhavi.github.io/Amazon-clone/"
+            >
+              <h3>Amazon Homepage Clone</h3>
+            </a>
+
+            <p>
+              HTML, CSS <br />
+              Developed a pixel-perfect Amazon homepage clone using HTML and
+              CSS, refining skills in frontend development and responsive
+              design.
+            </p>
+          </div>
+
+          <div class="skill-row hidden">
+            <img class="http-png" src="http-png.png" alt="chilli" />
+            <a target="_blank" href="data communication report.pdf">
+              <h3>HTTP Protocol using Cisco Packet Tracer</h3>
+            </a>
+
+            <p>
+              Cisco Packet Tracer, Networking, HTTP Protocol <br />
+              Configured virtual network environment with routers, switches, and
+              servers for accurate HTTP client-server communication.
+            </p>
+          </div>
+          <div class="skill-row hidden">
+            <img class="http-png" src="weather-png.png" alt="computer" />
+            <a target="_blank" href="software_final.pdf">
+              <h3>Weather ForecastPro</h3>
+            </a>
+
+            <p>
+              Developed SRS documentation for weather forecasting, showcasing
+              strong analytical and documentation skills. Collaborated with team
+              members to ensure clarity and accuracy.
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr class="hidden" />
+      <!-- <hr class="hidden" /> -->
+      <section id="projects" class="secondsection">
+        <span class="text-grey hidden">What I do</span>
+        <h1 class="hidden show">My Skills</h1>
+
+        <div class="skills">
+          <div class="skill-row hidden">
+            <img class="skill-png" src="c-png.png" alt="chilli" />
+            <a>
+              <h3>C Programing</h3>
+            </a>
+
+            <p>Over 5000+ lines of code.</p>
+          </div>
+
+          <div class="skill-row hidden">
+            <img class="skill-png" src="c++png.png" alt="chilli" />
+            <a>
+              <h3>C++ OOP</h3>
+            </a>
+
+            <p>Over 8000+ lines of code.</p>
+          </div>
+
+          <div class="skill-row hidden">
+            <img class="skill-png" src="java-png.png" alt="computer" />
+            <a>
+              <h3>JAVA OOP</h3>
+            </a>
+
+            <p>Over 2000+ lines of code.</p>
+          </div>
+
+          <div class="skill-row hidden">
+            <img class="skill-png" src="html-png.png" alt="chilli" />
+            <a>
+              <h3>HTML</h3>
+            </a>
+
+            <p>Over 9000+ lines of code.</p>
+          </div>
+          <div class="skill-row hidden">
+            <img class="skill-png" src="css-png.png" alt="computer" />
+            <a>
+              <h3>CSS</h3>
+            </a>
+
+            <p>Over 9000+ lines of code.</p>
+          </div>
+          <div class="skill-row hidden">
+            <img class="skill-png" src="js-png.png" alt="computer" />
+            <a>
+              <h3>JAVASCRIPT</h3>
+            </a>
+
+            <p>Over 1000+ lines of code.</p>
+          </div>
+          <div class="skill-row hidden">
+            <img class="skill-png" src="boot-png.png" alt="computer" />
+            <a>
+              <h3>BOOTSTRAP</h3>
+            </a>
+
+            <p>Over 5000+ lines of code.</p>
+          </div>
+        </div>
+      </section>
+      <hr class="hidden" />
+      <section id="contact-me" class="contact">
+        <link
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"
+        />
+
+        <h1 class="hidden">Get in Touch</h1>
+        <p class="hidden">
+          Let's grab a cup of coffee. Feel free to reach out for any
+          project-related inquiries and I'll follow-up as soon as possible.
+        </p>
+
+        <div id="contact" class="contact-area section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="contact">
+                  <form
+                    id="form"
+                    class="form"
+                    name="enq"
+                    method="post"
+                    action="https://formspree.io/f/maygkwww"
+                    onsubmit="return validation();"
+                  >
+                    <div class="row">
+                      <div class="form-group col-md-6 hidden">
+                        <input
+                          id="name"
+                          type="text"
+                          name="name"
+                          class="form-control"
+                          placeholder="Name"
+                          required
+                        />
+                      </div>
+                      <div class="form-group col-md-6 hidden">
+                        <input
+                          id="email"
+                          type="email"
+                          name="email"
+                          class="form-control"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+                      <div class="form-group col-md-12 hidden">
+                        <input
+                          id="subject"
+                          type="text"
+                          name="subject"
+                          class="form-control"
+                          placeholder="Subject"
+                          required
+                        />
+                      </div>
+                      <div class="form-group col-md-12 hidden">
+                        <textarea
+                          id="message"
+                          rows="6"
+                          name="message"
+                          class="form-control"
+                          placeholder="Your Message"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="col-md-12 text-center hidden">
+                        <button
+                          type="submit"
+                          value="Send message"
+                          name="submit"
+                          id="submitButton"
+                          class="btn btn-contact-bg"
+                          title="Submit Your Message!"
+                        >
+                          Send Message
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!--- END COL -->
+              <div class="col-lg-5 contact-right hidden">
+                <div class="single_address">
+                  <i class="fa fa-map-marker"></i>
+                  <h4>My Address</h4>
+                  <p>JSSSTU Mysore</p>
+                </div>
+                <div class="single_address">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <h4>Connect</h4>
+                  <p>www.linkedin.com/nageshbhavi</p>
+                </div>
+                <div class="single_address">
+                  <i class="fa fa-phone"></i>
+                  <h4>Call us on</h4>
+                  <p>(+91) 914 XXX XXXX</p>
+                </div>
+                <div class="single_address">
+                  <i class="fa-brands fa-instagram"></i>
+                  <h4>Follow</h4>
+                  <p>@nagesh.bhavi</p>
+                </div>
+              </div>
+              <!--- END COL -->
+            </div>
+            <!--- END ROW -->
+          </div>
+          <!--- END CONTAINER -->
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-class">
+        <a target="_blank" href="http://www.linkedin.com/in/nageshbhavi"
+          ><i class="fa-brands fa-linkedin social-icon"></i
+        ></a>
+        <a target="_blank" href="https://instagram.com/nagesh.bhavi"
+          ><i class="fa-brands fa-instagram social-icon"></i
+        ></a>
+        <a target="_blank" href="https://github.com/nageshbhavi"
+          ><i class="fa-brands fa-github social-icon"></i
+        ></a>
+        <a target="_blank" href="mailto:nageshportfolio19@gmail.com"
+          ><i class="fa-solid fa-envelope social-icon"></i
+        ></a>
+
+        <p>© 2023 Nagesh Bhavi</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["JAVA Coder,", "Web Developer."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
